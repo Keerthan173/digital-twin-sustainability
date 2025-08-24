@@ -1,1 +1,13 @@
-"{\n  \"@id\": \"dtmi:example:Household;1\",\n  \"@type\": \"Interface\",\n  \"displayName\": \"Household\",\n  \"contents\": [\n    {\"@type\": \"Property\", \"name\": \"waterUsage\", \"schema\": \"double\"},\n    {\"@type\": \"Property\", \"name\": \"energyUsage\", \"schema\": \"double\"},\n    {\"@type\": \"Property\", \"name\": \"wasteGenerated\", \"schema\": \"double\"}\n  ]\n}" 
+{
+  "building": {
+    "name": "Demo House",
+    "water_usage": {
+      "unit": "liters",
+      "daily_limit": 500
+    },
+    "electricity_usage": {
+      "unit": "kWh",
+      "daily_limit": 30
+    }
+  }
+}

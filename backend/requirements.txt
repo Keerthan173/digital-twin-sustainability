@@ -1,1 +1,4 @@
-"fastapi\nuvicorn\nsqlalchemy\npymysql" 
+fastapi
+uvicorn
+sqlalchemy
+pydantic
